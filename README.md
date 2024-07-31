@@ -1,2 +1,3 @@
-# particle-breaker
-Particle Breaker
+# Particle Breaker
+
+![Breaker Game](./breaker.gif)
