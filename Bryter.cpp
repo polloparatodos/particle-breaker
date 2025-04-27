@@ -248,7 +248,7 @@ int main(void) {
 		std::cerr << "Failed to initialize GLFW" << std::endl;
 		::exit(EXIT_FAILURE);
 	}
-	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 2);
+	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0);
 	GLFWwindow* window = glfwCreateWindow(WINDOW_WIDTH, WINDOW_HEIGHT, "Pseudo Kinetic Molecular Theory Simulator", NULL, NULL);
 	if (!window) {
