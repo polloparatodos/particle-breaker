@@ -9,13 +9,13 @@
 const float DEG2RAD = 3.14159 / 180;
 
 // Speed and Movement Constants
-const float MIN_SPEED = 0.01;
-const float MAX_SPEED = 0.09;
-const float SPEED_DELTA = 0.001;
+const float MIN_SPEED = 0.01f;
+const float MAX_SPEED = 0.09f;
+const float SPEED_DELTA = 0.001f;
 const int RANDOM_DIRECTION_PROBABILITY = 10;
 
 // Circle Properties
-const float INITIAL_RADIUS = 0.02;
+const float INITIAL_RADIUS = 0.02f;
 const int CIRCLE_SEGMENTS = 360;
 const float CIRCLE_START_X = 0.8f;
 const float CIRCLE_START_Y = -0.8f;
